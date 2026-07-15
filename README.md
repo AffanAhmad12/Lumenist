@@ -4,7 +4,7 @@ An internal HR policy RAG (Retrieval-Augmented Generation) chatbot built for Lum
 
 ## Features
 - Natural language Q&A on HR policy documents
-- Role-based access control (HR, Finance, IT, BPO, LPO, Interns, Admin)
+- Role-based access control (HR, Finance,  Interns, Admin)
 - Multilingual support (Hindi, Urdu, French, Spanish, and more)
 - Voice input via microphone
 - Knowledge gap logging to CSV
