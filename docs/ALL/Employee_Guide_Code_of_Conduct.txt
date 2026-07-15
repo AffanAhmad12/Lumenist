@@ -1,0 +1,113 @@
+LUMELIGHT — EMPLOYEE GUIDE & CODE OF CONDUCT
+Document Owner: Human Resources
+Effective Date: 1 April 2026
+Last Reviewed: 1 April 2026
+Next Review Due: 31 March 2027
+Document Version: 1.0
+Applicable To: All employees, interns, and contractors
+
+1. WELCOME TO LUMELIGHT
+This guide introduces new and existing employees to Lumelight's culture, expectations, and
+standards of conduct. It is intended to be a quick-reference companion to the detailed
+department-specific policies (Leave, Disciplinary, POSH, Dress Code, Benefits, etc.).
+
+2. OUR VALUES
+- Integrity: We act honestly and transparently with clients, colleagues, and partners
+- Client-first: We deliver consistent, high-quality service across BPO, LPO, and support functions
+- Respect: We treat every individual with dignity, regardless of role, background, or seniority
+- Continuous improvement: We seek to learn, document, and improve our processes constantly
+- Accountability: We own our work and its outcomes
+
+3. WORKING HOURS AND ATTENDANCE
+- Standard working hours are 9 hours per day inclusive of a 1-hour break, 5-6 days a week
+  depending on process requirements
+- Shift-based teams (BPO/voice) follow rosters published by team leads at least 1 week in
+  advance
+- Employees must log attendance via the biometric system or HR portal at the start and end of
+  each shift
+- Habitual lateness is addressed under the Disciplinary Policy
+
+4. CODE OF CONDUCT
+
+4.1 Professional Behavior
+- Treat colleagues, clients, and visitors with courtesy and respect at all times
+- Avoid behavior that could be considered discriminatory, harassing, or intimidating
+- Resolve workplace disagreements professionally; escalate to your manager or HR if needed
+
+4.2 Confidentiality and Data Protection
+- Client data, employee records, and internal business information must never be shared
+  outside authorized channels
+- Do not discuss client-specific information on personal social media or with unauthorized
+  third parties
+- Report any suspected data breach immediately to IT Security and your manager
+
+4.3 Conflict of Interest
+- Employees must disclose any personal or financial interest that could conflict with Lumelight's
+  business interests (e.g., a close relative working for a competing vendor)
+- Employees may not accept gifts or favors from clients/vendors beyond nominal value (as
+  defined in the Gifts and Hospitality guideline) without disclosure to their manager
+
+4.4 Use of Company Assets
+- Laptops, phones, access cards, and software licenses are provided for business use; reasonable
+  personal use is permitted unless it interferes with work or violates IT policy
+- Employees are responsible for safeguarding company assets issued to them and must report
+  loss or damage immediately to IT/Admin
+
+4.5 Anti-Bribery and Anti-Corruption
+- Lumelight strictly prohibits offering, giving, or receiving bribes in any form, whether to/from
+  clients, vendors, or government officials
+- Any suspected instance of bribery or corruption should be reported via the Whistleblower
+  channel described below
+
+4.6 Workplace Safety
+- Employees must follow all safety instructions, fire drill procedures, and emergency protocols
+  communicated by Admin/Facilities
+- Report any unsafe condition or near-miss incident to your manager or the Facilities team
+  immediately
+
+5. WHISTLEBLOWER MECHANISM
+Employees who witness or suspect any violation of this Code of Conduct, financial irregularity,
+or unethical practice can report it confidentially via:
+- Email: ethics.helpline@lumelight.com (demo address)
+- Anonymous web form linked on the HR intranet
+All reports are reviewed by an independent committee, and retaliation against whistleblowers is
+strictly prohibited and treated as gross misconduct.
+
+6. SOCIAL MEDIA GUIDELINES
+- Employees may identify themselves as Lumelight employees on personal social media but
+  should clarify that views expressed are personal and not those of the company
+- Do not post confidential client or business information, even in general terms
+- Be mindful that public posts can reflect on Lumelight's reputation
+
+7. PERFORMANCE AND GROWTH
+- Performance reviews are conducted twice a year (mid-year and annual)
+- Goals are set in consultation with your reporting manager at the start of each review cycle
+- Training and upskilling opportunities are communicated via the Learning & Development team
+
+8. GRIEVANCE REDRESSAL
+Employees with a workplace grievance (unrelated to POSH, which has its own dedicated
+process) may raise it with their manager first, and escalate to HR if unresolved within 7 working
+days. HR will acknowledge all grievances within 2 working days and aim to resolve them within
+15 working days.
+
+9. SEPARATION AND EXIT
+- Standard notice period is 30-60 days depending on role/grade, as specified in the employment
+  contract
+- Exit interviews are conducted by HR to gather feedback
+- Full and final settlement is processed within 45 days of the last working day, subject to
+  clearance from IT, Finance, and Admin
+
+10. ACKNOWLEDGMENT
+All employees are required to read this guide and the related policies and provide
+acknowledgment via the HR portal during onboarding and at each annual policy refresh.
+
+11. CONTACT
+For any questions, reach out to HR Helpdesk: hr.helpdesk@lumelight.com (demo address)
+
+---
+Note: This is a generic demo/sample guide created for internal testing and knowledge base
+ingestion purposes only. It does not reflect Lumelight's actual employee guide or code of
+conduct.
+
+12. Increment-
+u will get increment on basis of ur performance

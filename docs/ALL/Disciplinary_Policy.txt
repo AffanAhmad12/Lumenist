@@ -1,0 +1,103 @@
+LUMELIGHT — DISCIPLINARY POLICY
+Document Owner: Human Resources
+Effective Date: 1 April 2026
+Last Reviewed: 1 April 2026
+Next Review Due: 31 March 2027
+Document Version: 1.0
+Applicable To: All employees across BPO, LPO, HR, Finance, IT, and support functions
+
+1. PURPOSE
+This policy defines the standards of conduct expected from Lumelight employees and the
+process followed when those standards are not met. It aims to ensure fair, consistent, and
+transparent handling of misconduct while protecting the rights of all employees involved.
+
+2. SCOPE
+Applies to all confirmed and probationary employees of Lumelight. Interns and contractors are
+covered under separate clauses referenced in their engagement letters, but the general
+principles of fairness described here apply to them as well.
+
+3. CATEGORIES OF MISCONDUCT
+
+3.1 Minor Misconduct (examples)
+- Habitual late coming or early leaving without approval
+- Unexcused absenteeism (1-2 instances)
+- Failure to follow standard operating procedures
+- Misuse of company email for non-work purposes
+- Minor breach of dress code
+
+3.2 Major Misconduct (examples)
+- Repeated minor misconduct without improvement after warning
+- Insubordination or refusal to carry out reasonable work instructions
+- Breach of client confidentiality or data protection norms
+- Falsification of timesheets, expense claims, or company records
+- Misuse of company assets or systems
+- Behavior that violates the Code of Conduct
+
+3.3 Gross Misconduct (examples)
+- Theft, fraud, or financial dishonesty
+- Physical violence or threats of violence at the workplace
+- Sexual harassment (handled under the POSH Policy)
+- Working under the influence of alcohol or banned substances
+- Serious breach of data security leading to client or business harm
+- Conviction for a criminal offense relevant to employment
+
+4. DISCIPLINARY PROCESS
+
+Step 1: Verbal Counseling
+For first-time minor issues, the reporting manager provides verbal feedback and documents the
+conversation in the employee's file.
+
+Step 2: Written Warning
+If the issue recurs or is more serious, a written warning is issued by the manager with HR
+review, specifying the concern and expected corrective action within a defined timeline
+(typically 30 days).
+
+Step 3: Show Cause Notice
+For major misconduct, HR issues a formal show cause notice asking the employee to explain
+their conduct in writing within 3-5 working days.
+
+Step 4: Disciplinary Inquiry
+A committee (manager + HR representative, and a senior leader for gross misconduct cases)
+reviews the explanation, may interview witnesses, and records findings.
+
+Step 5: Decision and Action
+Based on the inquiry findings, HR will recommend one of the following:
+- No action / case closed
+- Final written warning
+- Suspension without pay (up to 15 days)
+- Demotion or transfer
+- Termination of employment
+
+5. SUSPENSION PENDING INQUIRY
+In cases of alleged gross misconduct, an employee may be placed under suspension (with or
+without pay, per applicable law and contract terms) while the inquiry is ongoing, to maintain
+workplace safety and the integrity of the investigation.
+
+6. EMPLOYEE RIGHTS DURING THE PROCESS
+- Right to be informed of the specific allegation in writing
+- Right to respond and present their version of events
+- Right to be accompanied by a colleague during disciplinary meetings (on request)
+- Right to appeal the decision within 7 working days of receiving it
+
+7. APPEAL PROCESS
+An employee may appeal a disciplinary decision by writing to the Head of HR within 7 working
+days. The appeal will be reviewed by a leader not involved in the original decision, and a final
+response will be provided within 15 working days.
+
+8. RECORD KEEPING
+All disciplinary actions are recorded in the employee's personnel file and retained as per
+Lumelight's data retention schedule. Verbal counseling records are typically retained for 12
+months; written warnings and above are retained for the duration of employment plus the
+statutory period thereafter.
+
+9. CONFIDENTIALITY
+Disciplinary proceedings are handled on a need-to-know basis. Details are not shared with
+colleagues outside the process unless required for the inquiry or by law.
+
+10. CONTACT
+For questions about this policy, contact HR Helpdesk: hr.helpdesk@lumelight.com (demo address)
+
+---
+Note: This is a generic demo/sample policy created for internal testing and knowledge base
+ingestion purposes only. It does not reflect Lumelight's actual disciplinary policy and should not
+be used for real HR decisions.

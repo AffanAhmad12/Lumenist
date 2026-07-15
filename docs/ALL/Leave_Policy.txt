@@ -1,0 +1,95 @@
+LUMELIGHT — LEAVE POLICY
+Document Owner: Human Resources
+Effective Date: 1 April 2026
+Last Reviewed: 1 April 2026
+Next Review Due: 31 March 2027
+Document Version: 1.0
+Applicable To: All confirmed and probationary employees
+
+1. PURPOSE
+This policy describes the types of leave available to Lumelight employees, eligibility, accrual,
+and the process for applying for and approving leave.
+
+2. LEAVE YEAR
+The Lumelight leave year runs from 1 April to 31 March. Leave balances are reset and
+recalculated at the start of each leave year, subject to the carry-forward rules below.
+
+3. TYPES OF LEAVE AND ENTITLEMENT
+
+3.1 Casual Leave (CL)
+- 12 days per year, credited at 1 day per completed month of service
+- Used for short personal matters; minimum half-day, maximum 3 consecutive days without
+  manager approval for longer durations
+- Cannot be combined with Privilege Leave beyond 3 consecutive days without prior approval
+
+3.2 Sick Leave (SL)
+- 12 days per year, credited at 1 day per completed month of service
+- A medical certificate is required for sick leave exceeding 2 consecutive days
+- Unused sick leave up to 6 days may be carried forward to the next leave year
+
+3.3 Privilege/Earned Leave (PL/EL)
+- 15 days per year, accrued monthly
+- Must generally be applied for at least 7 days in advance
+- Up to 30 days may be accumulated and carried forward; encashment rules are covered in the
+  Employee Benefits document
+
+3.4 Maternity Leave
+- Governed by the separate Maternity Benefit Policy document
+
+3.5 Paternity Leave
+- 10 working days, to be availed within 3 months of the child's birth or adoption
+
+3.6 Bereavement Leave
+- 5 working days in the event of the death of an immediate family member (spouse, child,
+  parent, sibling)
+
+3.7 Marriage Leave
+- 3 working days, available once during employment with Lumelight, on the employee's own
+  wedding
+
+3.8 Leave Without Pay (LWP)
+- May be granted at management discretion when an employee has exhausted other leave
+  balances and has a genuine need
+- Extended LWP beyond 30 days requires Head of HR approval and may affect benefit accrual
+
+4. PUBLIC HOLIDAYS
+Lumelight observes a list of public holidays published annually on the HR intranet, typically
+including 10-12 holidays depending on work location, in compliance with applicable state
+holiday lists.
+
+5. WEEKLY OFFS
+Standard weekly off is 2 days, typically Saturday and Sunday for non-voice teams. BPO/voice
+process teams follow a rotational weekly off schedule aligned with shift rosters, communicated
+by team leads at least one week in advance.
+
+6. HOW TO APPLY FOR LEAVE
+- All leave must be applied for through the HR portal at least 24 hours in advance (except sick
+  leave, which may be applied for retroactively with manager notification on the day of absence)
+- Leave is approved by the direct reporting manager; HR is notified automatically through the
+  system
+- Emergency leave should be communicated to the manager via call/message as early as possible,
+  with formal application filed within 2 working days of returning to work
+
+7. UNAPPROVED ABSENCE
+Absence without approved leave or notification to the manager for 3 or more consecutive days
+may be treated as unauthorized absence and may lead to disciplinary action as per the
+Disciplinary Policy, including possible treatment as voluntary resignation in extreme cases as
+per the employment contract.
+
+8. LEAVE DURING NOTICE PERIOD
+Leave requests during an employee's notice period are subject to manager and HR approval
+and are evaluated based on handover and business continuity requirements.
+
+9. CARRY FORWARD AND LAPSE
+- Casual Leave does not carry forward and lapses at the end of the leave year
+- Sick Leave: up to 6 days may carry forward
+- Privilege Leave: up to 30 days may be accumulated; balances beyond this lapse unless
+  encashed as per the Employee Benefits policy
+
+10. CONTACT
+For questions about this policy or to report leave balance discrepancies, contact:
+HR Helpdesk: hr.helpdesk@lumelight.com (demo address)
+
+---
+Note: This is a generic demo/sample policy created for internal testing and knowledge base
+ingestion purposes only. It does not reflect Lumelight's actual leave entitlements.

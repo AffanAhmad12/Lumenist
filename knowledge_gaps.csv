@@ -1,0 +1,67 @@
+timestamp,username,question
+2026-07-01 12:02:57,terminal_test,comapny average profit
+2026-07-01 12:08:13,Affan,Chatpgpt 
+2026-07-01 14:12:56,Affan,cycle
+2026-07-01 17:46:39,Affan,sadsad
+2026-07-01 17:49:20,Affan,sadsad
+2026-07-01 18:00:02,Affan,doctype
+2026-07-01 18:00:26,Affan,fine
+2026-07-02 17:07:40,HR,Intern working hours
+2026-07-02 18:47:33,HR,whats
+2026-07-02 18:52:09,HR,what are the increment 
+2026-07-02 18:52:41,Hr,what is Increment
+2026-07-02 18:57:30,HR,Village
+2026-07-02 18:58:26,Finance,village
+2026-07-02 18:59:12,Finance,whats village
+2026-07-02 19:05:13,Hr,village
+2026-07-02 19:07:29,Finance,What are my 
+2026-07-03 10:08:55,Affan,Who was
+2026-07-07 15:05:09,Affan,what is type of intense
+2026-07-07 15:05:17,Affan,intense SCO
+2026-07-14 11:08:07,Affan,Kitni leaves milati hai
+2026-07-14 16:40:42,Affan,python
+2026-07-14 16:41:01,Affan,who is 
+2026-07-14 16:41:09,Affan,who is  Guido van Rossum
+2026-07-14 16:41:35,Affan,who is  Guido van Rossum\
+2026-07-14 16:41:38,Affan,who is  Guido van Rossum
+2026-07-14 16:42:52,Affan,when was python 2.7
+2026-07-14 16:43:05,Affan,when was python 2.0 released
+2026-07-14 16:43:58,Affan,when was python 2.0 released
+2026-07-14 16:44:22,Affan,who is Guido van Rossum
+2026-07-14 16:44:33,Affan,who is Guido van Rossum
+2026-07-14 16:44:43,Affan,who is Guido van Rossum
+2026-07-14 16:44:49,Affan,python
+2026-07-14 16:45:45,Affan,python
+2026-07-14 16:45:48,Affan,python
+2026-07-14 16:45:56,Affan,python
+2026-07-14 16:46:04,Affan,how will i get ps5
+2026-07-14 16:46:11,Affan,ps5
+2026-07-14 16:51:22,Affan,ps5
+2026-07-14 16:52:46,Affan,ps5
+2026-07-14 17:05:09,Lumelight,what is 
+2026-07-14 17:47:47,Lumelight,How can i upgrade my steam account
+2026-07-14 17:48:06,Lumelight,tell me something about steam policy
+2026-07-14 18:36:18,Affan,what is tax compilance
+
+2026-07-15 10:34:03,Intern1,how much money will i get
+2026-07-15 10:34:09,Intern1,how much salary will i get
+2026-07-15 13:11:03,terminal_test,"(venv) PS C:\vs code\github\Lumenist> & ""c:\vs code\github\Lumenist\venv\Scripts\python.exe"" ""c:/vs code/github/Lumenist/src/chat.py"""
+2026-07-15 13:11:03,terminal_test,"Loading weights: 100%|█████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 7233.25it/s]"
+2026-07-15 13:11:03,terminal_test,
+2026-07-15 13:11:03,terminal_test,Ask a question (or type 'exit'): interns ko stipend kitna milega
+2026-07-15 13:11:03,terminal_test,Traceback (most recent call last):
+2026-07-15 13:11:03,terminal_test,"  File ""c:\vs code\github\Lumenist\src\chat.py"", line 110, in <module>"
+2026-07-15 13:11:04,terminal_test,"    results = answer_question(query, username=""terminal_test"")"
+2026-07-15 13:11:04,terminal_test,"  File ""c:\vs code\github\Lumenist\src\chat.py"", line 67, in answer_question"
+2026-07-15 13:11:04,terminal_test,    if  not is_english:
+2026-07-15 13:11:04,terminal_test,            ^^^^^^^^^^
+2026-07-15 13:11:44,terminal_test,interns ko kitni stipend milegi
+2026-07-15 13:11:55,terminal_test,stipend kitni milegi
+2026-07-15 13:19:05,terminal_test,stipend kitna milega mujhe
+2026-07-15 13:19:18,terminal_test,salary kitni milegi mujhe
+2026-07-15 13:19:36,terminal_test,mai kya kya phn sakta hu monday ko
+2026-07-15 15:50:18,terminal_test,meri tabiyat kharab hai mujhe 2 din ki chutti chahiye
+2026-07-15 15:50:27,terminal_test,meri tabiyat kharab hai
+2026-07-15 15:50:44,terminal_test,meri tabiyat kharab hai
+2026-07-15 15:50:55,terminal_test,mujhe chutti chahiye
+2026-07-15 15:52:08,terminal_test,मुझे छुट्टी चाहिए

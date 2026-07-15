@@ -1,0 +1,95 @@
+LUMELIGHT — EMPLOYEE BENEFITS POLICY
+Document Owner: Human Resources
+Effective Date: 1 April 2026
+Last Reviewed: 1 April 2026
+Next Review Due: 31 March 2027
+Document Version: 1.0
+Applicable To: All confirmed employees (some benefits vary for probationary employees, as noted)
+
+1. PURPOSE
+This document summarizes the benefits available to Lumelight employees in addition to base
+salary, covering health, financial, and well-being benefits.
+
+2. HEALTH INSURANCE
+- Group Mediclaim Policy covering the employee, spouse, and up to 2 dependent children
+- Sum insured: INR 3,00,000 per family floater (standard grade); higher grades may have
+  enhanced cover as per grade matrix
+- Coverage begins from the date of joining for confirmed employees; probationary employees are
+  covered from day one as well under Lumelight's policy
+- Pre-existing diseases are covered as per insurer terms (no waiting period under the current
+  group policy)
+- Cashless treatment available at network hospitals; reimbursement claims for non-network
+  hospitals processed within 15 working days of submission
+
+3. PERSONAL ACCIDENT AND LIFE INSURANCE
+- Group Personal Accident cover: INR 5,00,000 per employee
+- Group Term Life Insurance cover: 2x annual fixed salary, subject to insurer terms
+- Nomination details must be updated by the employee via the HR portal at the time of joining
+  and whenever personal circumstances change
+
+4. PROVIDENT FUND (PF)
+- Statutory Provident Fund contribution as per the Employees' Provident Fund Act
+- Employee contributes 12% of basic salary; Lumelight matches with an equal contribution
+- PF account (UAN) details are shared during onboarding; employees can track contributions via
+  the EPFO portal
+
+5. GRATUITY
+As per the Payment of Gratuity Act, employees who complete 5 years of continuous service are
+eligible for gratuity, calculated as per statutory formula, payable at the time of separation.
+
+6. LEAVE ENCASHMENT
+- Unused Privilege/Earned Leave above the carry-forward limit (30 days) may be encashed once
+  a year, in the month of March, at the basic salary rate
+- Full encashment of accumulated Privilege Leave is processed at the time of final separation
+
+7. WELLNESS AND EMPLOYEE ASSISTANCE
+- Access to a confidential Employee Assistance Program (EAP) offering counseling support for
+  stress, mental health, and personal issues
+- Annual health check-up camp organized at major office locations
+- Subsidized gym/wellness membership reimbursement up to INR 5,000 per year (where
+  applicable per grade)
+
+8. MEALS AND TRANSPORT
+- Subsidized cafeteria facility at major office locations
+- Shift allowance and pick-up/drop facility for employees working night shifts (BPO/voice
+  process), as per the transport policy for the specific location
+- Conveyance/transport allowance as per grade and location, included in the salary structure
+
+9. LEARNING AND DEVELOPMENT BENEFITS
+- Reimbursement for job-related certifications, subject to manager and HR approval, up to a
+  defined annual limit per grade
+- Access to internal learning platform for upskilling in process, communication, and leadership
+  skills
+- Tuition assistance for relevant higher education programs, subject to a separate policy and
+  minimum service commitment post-completion
+
+10. REFERRAL BONUS
+Employees referring a successful candidate (who completes the probation period) are eligible
+for a referral bonus, with amounts varying by role criticality, as published periodically by Talent
+Acquisition.
+
+11. RECOGNITION AND REWARDS
+- Monthly and quarterly recognition programs for top performers across BPO, LPO, and support
+  functions
+- Service milestone awards at 1, 3, 5, 10, and 15 years of continuous service
+
+12. MATERNITY AND PATERNITY BENEFITS
+Covered in detail under the separate Maternity Benefit Policy document and the Leave Policy
+(for Paternity Leave).
+
+13. RETIREMENT AND SEPARATION BENEFITS
+On separation, eligible employees receive full and final settlement including unpaid salary, leave
+encashment, gratuity (if eligible), and any other statutory dues, processed within 45 days of the
+last working day.
+
+14. CHANGES TO BENEFITS
+Lumelight reviews its benefits structure annually and reserves the right to modify, add, or
+discontinue benefits with reasonable advance notice to employees, in compliance with
+applicable law.
+
+15. CONTACT
+For benefit-related queries, contact HR Helpdesk: hr.helpdesk@lumelight.com (demo address)
+
+---
+Note: This is a generic demo/sample policy created for internal testing and knowledge base
+ingestion purposes only. It does not reflect Lumelight's actual employee benefits.

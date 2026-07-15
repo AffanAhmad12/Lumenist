@@ -1,0 +1,32 @@
+{
+    "Affan": {
+        "password": "$2b$12$sD8ePs.JhdNB1ypZQF.ZZ.LvgC9xbUQ29/7KyivD7K35NtOgVKKBK",
+        "role": "ADMIN",
+        "status": "active"
+    },
+    "HR": {
+        "password": "$2b$12$iUZT9nVfZVTRAZ0wmpd3p.HS9kC.sgLWQrDQh9lbQSTBPSPXrTuki",
+        "role": "HR",
+        "status": "active"
+    },
+    "Interns": {
+        "password": "$2b$12$gGWFhzjWTM4BGzitrs4YcO9KjNEKWIkb1NUYBqNxW/LVkxfm8BxCS",
+        "role": "INTERNS",
+        "status": "active"
+    },
+    "Finance": {
+        "password": "$2b$12$8cxr0.zmqcnXg4ahwo2jAOGDqU1qCYwCtGYk9zkQR6EzSG57Rtm9K",
+        "role": "FINANCE",
+        "status": "active"
+    },
+    "Lumelight": {
+        "password": "$2b$12$iYX1J4Q.XqJ6okP8xJQeTuXrGNHGO1myQyGON9mThCHm8/6M4QZkG",
+        "role": "HR",
+        "status": "active"
+    },
+    "Intern1": {
+        "password": "$2b$12$SjzGEJjNFoiTNihpjdi4iOlQAoCKzXXpUYh.aDfB4zXnoeNFUw8wi",
+        "role": "INTERNS",
+        "status": "active"
+    }
+}
