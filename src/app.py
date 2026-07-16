@@ -4,6 +4,9 @@ from ingest_upload import process_upload_files
 from streamlit_mic_recorder import mic_recorder
 from auth import authenticate
 from signup import register_user
+from history import get_user_history, clear_user_history
+from gtts import gTTS
+import tempfile
 import speech_recognition as sr
 import streamlit as st 
 import json
@@ -98,6 +101,19 @@ if "username" not in st.session_state:
                 else:
                     st.error(message)
     st.stop() 
+#Read out loud
+def speak_answer(text, lang="en"):
+    try:
+        tts = gTTS(text=text, lang=lang)
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")as tmp:
+            tts.save(tmp.name)
+            tmp_path = tmp.name
+        with open(tmp_path, "rb") as f:
+            audio_bytes = f.read()
+        os.remove(tmp_path)
+        st.audio(audio_bytes, format="auto/mp3", autoplay=True)
+    except Exception as e:
+        st.warning(f"Could not play audio: {e}")
 # Reset chat History 
 
 username = st.session_state["username"]
@@ -178,7 +194,49 @@ if st.sidebar.button("Logout"):
     st.rerun()
 
 # main area
-st.header("Ask a question")
+tab_chat, tab_history = st.tabs(["💬 Chat", "📜 Full History"])
+
+with tab_chat:
+    st.header("Ask a question")
+with tab_history:
+    st.subheader("📜 Full Conversation History")
+    full_history = get_user_history(username)
+
+    if not full_history:
+        st.info("No conversation history yet.")
+    else:
+        search_term = st.text_input("Search history", placeholder="Search by keyword", key = "history_search") 
+        if search_term:
+            term = search_term.lower()
+            filtered = [
+                h for h in full_history
+                if term in h["question"].lower() or term in h["answer"].lower()
+            ]
+        else:
+            filtered = full_history
+
+        st.caption(f"Showing {len(filtered)} of {len(full_history)} conversations")
+
+        with st.expander("⚠️ Clear all history"):
+            st.warning("This permanently deletes all your saved conversation.")
+            confirm = st.checkbox("I understand this cannot be undone", key="confirm_clear")
+            if st.button("Clear History", disabled=not confirm):
+                clear_user_history(username)
+                st.success("History cleared.")
+                st.rerun()
+
+        st.divider()
+
+        if not filtered:
+            st.info("No conversation match your search.")
+
+        else:
+            for entry in filtered:
+                with st.expander(f"🕒 {entry['timestamp']}- {entry['question'][:80]}"):
+                    st.markdown(f"**Question:** {entry['question']}")
+                    st.markdown(f"**Answer:**{entry['answer']}")
+                    if entry["sources"]:
+                        st.markdown(f"**Sources:**{entry['sources']}")
 
 # two columns — text input + mic button side by side
 col1, col2 = st.columns([8, 1])
@@ -211,7 +269,7 @@ if audio:
                 tmp_webm.write(audio["bytes"])
                 webm_path = tmp_webm.name
             
-            # convert webm to wav using pydub
+            # convert webm to wav 
             wav_path = webm_path.replace(".webm", ".wav")
             AudioSegment.from_file(webm_path, format="webm").export(wav_path, format="wav")
             
@@ -237,6 +295,8 @@ if audio:
 elif typed_query:
     query = typed_query
 
+# track if voice was used
+voide_used = audio is not None and query is not None and audio == query or (audio and not typed_query)
 if query:
     with st.spinner("Searching..."):
         result = answer_question(query, username, role)
@@ -248,6 +308,17 @@ if query:
         st.subheader("Sources")
         for source in result["sources"]:
             st.write(f"-- {source}")
+
+    #Speak answer if voice was use
+    if audio and query:
+        detected = "en"
+        try:
+            if len(query.strip())>=20:
+                from langdetect import detect
+                detected = detect(query)
+        except:
+            detected = "en"
+        speak_answer(result["answer"], lang=detected if detected != "en" else "en")
 
     st.session_state["chat_history"].append({
         "question": query,

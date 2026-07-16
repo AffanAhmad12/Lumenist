@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 from langdetect import detect
 from deep_translator import GoogleTranslator
+from history import save_message
 
 load_dotenv()
 
@@ -59,8 +60,13 @@ def translate(text, source="auto", target="en"):
 def answer_question(query, username="Anonymous", role="ALL"):
     # detect language and translate query to English
     try:
-        detected_lang = detect(query)
-        is_english = detected_lang == "en"
+         # only detect language for longer queries — short ones default to English
+        if len(query.strip()) < 20:
+            detected_lang = "en"
+            is_english = True
+        else:
+            detected_lang = detect(query)
+            is_english = detected_lang == "en"
     except:
         detected_lang = "en"
         is_english = True
@@ -95,6 +101,11 @@ def answer_question(query, username="Anonymous", role="ALL"):
      # translate answer back to user's language
     if not is_english:
         answer = translate(answer, source="en", target=detected_lang) 
+      # translate answer back to user's language
+    if not is_english:
+        answer = translate(answer, source="en", target= detected_lang)
+      #Save to persistent history
+    save_message(username, query, answer, sources)
 
     return {
         "answer": answer,
