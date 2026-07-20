@@ -1,35 +1,46 @@
-import json
+import os 
+import psycopg2
 import bcrypt
-import os
+from dotenv import load_dotenv
 
-USER_FILE = os.path.join(os.path.dirname(__file__), "..", "config","users.json")
+load_dotenv()
 
-def load_users():
-    with open(USER_FILE, "r") as f:
-        return json.load(f)
-    
+def get_connection():
+    conn_str = os.environ.get("PG_CONNECTION", "")
+    conn_str = conn_str.replace("postgresql+psycopg://", "postgresql://")
+    return psycopg2.connect(conn_str)
+
 def authenticate(username, password):
     """
-    checks if username + password match.
+    Check if username + password match in database.
     Returns the user's role if valid, None if invalid.
     """
+    try:
+        conn = get_connection()
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT password, role FROM users WHERE username=%s AND is_approved=TRUE",
+            (username.strip().lower(),)   
+        )
+        result = cur.fetchone()
+        cur.close()
+        conn.close()
 
-    users = load_users()
-    username = username.strip().lower()
-    users_lower ={k.lower(): v for k, v in users.items()}
-
-    if username not in users_lower:
+        if result:
+           stored_password = result[0]
+           role = result[1]
+  # handle both bcrypt and plain text passwords          
+           try:
+               if bcrypt.checkpw(password.strip().encode("utf-8"), stored_password.encode("utf-8")):
+                   return role
+           except Exception:
+ # fallback to plain text for existing users            
+            if stored_password == password.strip():
+                  return role
         return None
-    #storing both as bytes
-    stored_hash= users_lower[username]["password"].encode("utf-8")
-    if not bcrypt.checkpw(password.encode("utf-8"), stored_hash):
+    except Exception as e:
+        print(f"Auth error: {e}")
         return None
-   #blocking non active users
-    if users_lower[username].get("status") != "active":
-        return None
-    
-    return users_lower[username]["role"]
-
 if __name__ == "__main__":
-    result = authenticate("HR", "Hr00123")
+    result = authenticate("harsh", "harsh123")
     print(result)

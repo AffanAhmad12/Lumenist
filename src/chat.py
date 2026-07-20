@@ -60,7 +60,7 @@ def translate(text, source="auto", target="en"):
 def answer_question(query, username="Anonymous", role="ALL"):
     # detect language and translate query to English
     try:
-         # only detect language for longer queries — short ones default to English
+        # only detect language for longer queries — short ones default to English
         if len(query.strip()) < 20:
             detected_lang = "en"
             is_english = True
@@ -103,7 +103,7 @@ def answer_question(query, username="Anonymous", role="ALL"):
         answer = translate(answer, source="en", target=detected_lang) 
       # translate answer back to user's language
     if not is_english:
-        answer = translate(answer, source="en", target= detected_lang)
+        answer = translate(answer, source="en", target= detected_lang) 
       #Save to persistent history
     save_message(username, query, answer, sources)
 

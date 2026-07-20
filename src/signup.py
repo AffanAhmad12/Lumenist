@@ -1,35 +1,43 @@
-import json
-import bcrypt
 import os
+import bcrypt
+import psycopg2
+from dotenv import load_dotenv
 
-USER_PATH = os.path.join(os.path.dirname(__file__), "..","config","users.json" )
+load_dotenv()
 
-def load_users():
-    if not os.path.isfile(USER_PATH):
-        return{}
-    with open(USER_PATH, "r") as f:
-        return json.load(f)
-    
-def save_users(users):
-    with open(USER_PATH, "w") as f:
-        json.dump(users, f , indent = 4)
+def get_connection():
+    conn_str = os.environ.get("PG_CONNECTION", "")
+    conn_str = conn_str.replace("postgresql+psycopg://","postgresql://")
+    return psycopg2.connect(conn_str)
 
 def register_user(username, password):
-    users= load_users()
-    
-    if username in users:
-        return False, "Username already taken"
-    
-    hashed = bcrypt.hashpw(password.encode ("utf-8"), bcrypt.gensalt())
-    hashed = hashed.decode("utf-8")
+    """Register a new user with pending approval."""
+    try:
+        conn = get_connection()
+        cur  = conn.cursor()
 
-    users[username] = {
-        "password" : hashed,
-        "role" : None,
-        "status":"pending" 
-    }
+ # check if username already exists
+        cur.execute("SELECT username FROM users WHERE username=%s", (username.strip().lower(),))
+        if cur.fetchone():
+            cur.close()
+            conn.close()
+            return False, "username already taken"
+        
+# hashing the pass
 
-    save_users(users)
-    return True, "Account created. Waiting for admin approval."
+        hashed = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
+
+  # insert new user with is_approved=FALSE until admin approves       
+        cur.execute(
+            "INSERT INTO users (username, password, role,is_approved) VALUES (%s, %s, %s, FALSE)",
+            (username.strip().lower(),hashed,None)
+        )
+        conn.commit()
+        cur.close()
+        conn.close()
+        return True, "Account created. Waiting for admin approval."
+    except Exception as e:
+        print(f"signup error: {e}")
+        return False, f"Registration failed: {e}"
 if __name__ == "__main__":
     print(register_user("HARSH", "harsh123"))

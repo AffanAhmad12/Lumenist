@@ -1,4 +1,4 @@
-from admin_panel import show_admin_panel
+from admin_panel import show_admin_pannel, show_delete_pannel
 from chat import answer_question
 from ingest_upload import process_upload_files
 from streamlit_mic_recorder import mic_recorder
@@ -6,11 +6,8 @@ from auth import authenticate
 from signup import register_user
 from history import get_user_history, clear_user_history
 from gtts import gTTS
-import tempfile
 import speech_recognition as sr
 import streamlit as st 
-import json
-import io
 import base64
 import os
 
@@ -175,9 +172,11 @@ if st.session_state["show_upload"]:
 
 #admin approval
 with st.sidebar:
- if st.session_state.get("role") == "ADMIN":
-    with st.expander("Admin Panel"):
-        show_admin_panel()
+    if st.session_state.get("role") == "ADMIN":
+        with st.expander("Approve Pending Users"):
+            show_admin_pannel()
+        with st.expander("Remove Users"):
+            show_delete_pannel()
 #history
 if  st.session_state["chat_history"]:
     st.sidebar.header("Chat History")

@@ -1,5 +1,5 @@
 import os
-import json
+import psycopg2
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_postgres import PGVector
 from dotenv import load_dotenv
@@ -9,17 +9,29 @@ load_dotenv()
 CONNECTION_STRING= os.environ["PG_CONNECTION"]
 COLLECTION_NAME = "lumenist"
 
-ROLES_FILE = os.path.join(os.path.dirname(__file__),"..", "config", "roles.json")
-
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
 def get_allowed_departments(role):
-    """Load roles.json and return the list of departments this role can access. """
-    with open(ROLES_FILE, "r")as f:
-        roles=json.load(f)
-    return roles.get(role.upper(), ["ALL"])
+    """Load allowed departments for a role from database """
+    try:
+        conn_str = os.environ["PG_CONNECTION"].replace("postgresql+psycopg://","postgresql://")
+        conn = psycopg2.connect(conn_str)
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT allowed_departments From roles WHERE role_name=%s",
+            (role.upper(),)   
+        )
+        result = cur.fetchone()
+        cur.close()
+        conn.close()
+        if result:
+            return result[0].split(",")
+        return ["ALL"]
+    except Exception as e:
+        print(f"ROLE fetch error: {e}")
+        return ["ALL"]
 
 def get_vectordb():
     #PGVECTOR
